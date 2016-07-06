@@ -27,7 +27,7 @@ public class EventBusAutoConfiguration {
 
     @Bean
     public AsyncEventBus asyncEventBus() {
-        AsyncEventBus asyncEventBus = new AsyncEventBus(Executors.newFixedThreadPool(2));
+        AsyncEventBus asyncEventBus = new AsyncEventBus(Executors.newCachedThreadPool());
         return asyncEventBus;
     }
 
