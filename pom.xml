@@ -5,7 +5,7 @@
 
 	<groupId>com.mll</groupId>
 	<artifactId>eventbus</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2-RELEASE</version>
 	<packaging>jar</packaging>
 
 	<name>eventbus</name>
